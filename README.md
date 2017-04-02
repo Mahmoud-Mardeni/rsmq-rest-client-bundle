@@ -1,2 +1,2 @@
 # rsmq-rest-client-bundle
-Redis simple messaging queue (RSMQ) rest client bundle for symfony.
+Redis simple messaging queue (RSMQ) REST client bundle for symfony.
