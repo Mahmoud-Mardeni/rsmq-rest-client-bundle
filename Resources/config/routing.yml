@@ -1,0 +1,3 @@
+rsmq_rest_client_test:
+     path: /rsmqRestTest
+     defaults: { _controller: RSMQRESTClientBundle:Default:index }

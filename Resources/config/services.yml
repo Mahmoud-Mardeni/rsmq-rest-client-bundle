@@ -1,0 +1,7 @@
+services:
+  rsmq.rest.message_api:
+    class: Redis\RSMQRESTClientBundle\RestfulClient\MessageAPI
+    arguments: [ '@guzzle.client.rsmq_api' ]
+  rsmq.rest.queue_api:
+    class: Redis\RSMQRESTClientBundle\RestfulClient\QueueAPI
+    arguments: [ '@guzzle.client.rsmq_api' ]
